@@ -60,4 +60,11 @@ public class ScreenShot : MonoBehaviour
 
     }
 
+    public static void SaveTextureAsPNG(Texture2D texture, string fullPath)
+    {
+            byte[] bytes =texture.EncodeToPNG();
+            System.IO.File.WriteAllBytes(fullPath, bytes);
+            Debug.Log(bytes.Length/1024  + "Kb was saved as: " + fullPath);
+    }
+
 }

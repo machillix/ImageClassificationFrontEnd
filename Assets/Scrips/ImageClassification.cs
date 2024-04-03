@@ -68,6 +68,9 @@ public class ImageClassification : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.B)){
             Texture2D texture2D = screenShot.TakePhoto();
+
+           // ScreenShot.SaveTextureAsPNG(texture2D, Application.dataPath + "/1.png");
+            
             string base64Texture = RestCommunication.Textute2DToBase64(texture2D);
             StartCoroutine(restCommunication.Send(base64Texture));
         }

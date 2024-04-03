@@ -61,6 +61,7 @@ public class FlyCamera : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
             prevMousePos = Input.mousePosition;
+
         }
  
         if (Input.GetMouseButton(1))

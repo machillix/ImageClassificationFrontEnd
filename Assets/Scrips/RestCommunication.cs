@@ -57,7 +57,7 @@ public class RestCommunication : MonoBehaviour
     public IEnumerator Send(string base64)
     {
         // Send json to backend
-        using (UnityWebRequest www = UnityWebRequest.Post("http://127.0.0.1:8888", "{ \"img\": \""+base64+"\"}", "application/json"))
+        using (UnityWebRequest www = UnityWebRequest.Post("https://20cc-34-132-252-209.ngrok-free.app", "{ \"img\": \""+base64+"\"}", "application/json"))
         {
             yield return www.SendWebRequest();
 

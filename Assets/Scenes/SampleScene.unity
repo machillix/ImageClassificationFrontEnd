@@ -265,8 +265,16 @@ PrefabInstance:
       value: mandarin
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b114da751b38542acbb7394eba2c9fc8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b114da751b38542acbb7394eba2c9fc8, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523972391035722619, guid: b114da751b38542acbb7394eba2c9fc8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -342,7 +350,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 64
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -482,6 +490,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b56a367792ad4b7199499f8bfe9d581, type: 3}
       propertyPath: m_Name
       value: Lego_C4D_native
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b56a367792ad4b7199499f8bfe9d581, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
